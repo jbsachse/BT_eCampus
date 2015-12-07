@@ -1,0 +1,1017 @@
+@import url(./Font/open-sans.css);
+@import url(./Client_BG.css);
+
+/*Police par defaut des pages */
+body, .RadMenu .rmText, .SyfadisMenu .rmItem .rmRootLink .rmText, #UserConnect a, #GlobalTools .SyfadisMenu .rmText, .RadInput .riTextBox, textarea, .DurationField, .NumericField, .TextField, .FileSelectorField input, .GridView .TextField, em, p, input, div, .RadDock .rdTitleBar em {
+font-family: 'Open Sans', Arial, sans-serif !important;
+color: #292929;
+}
+
+/* Début LOGIN */
+
+/*Page de login : taille et position de l'image de fond de la zone de saisie */
+html #LoginBody #ContentPanel {
+background-image:url("./Images/login.png") !important;
+width:1024px;
+height:768px;
+top:0px;
+}
+
+/*Page de login : Couleurs et fond */
+html #LoginBody {
+background-image:url("./Images/loginFd.png") !important;
+background-color:#F0EEE1;
+color: #000000;
+font-size:9pt;
+background-position:;
+}
+
+/*Page de login : Couleurs des textes */
+html #LoginBody .FieldItemLabel, #LoginBody {
+color: #000000 !important;
+}
+
+/*Page de login : Le cadre de la zone des identifiants */
+html #LoginBody .LoginFieldPanel {
+border: 0px solid;
+border-radius: 0px;
+box-shadow: 0 0 0px #111;
+background-color:transparent;
+}
+
+/*Page de login : list de selection de la langue */
+html #LoginBody #LanguageSelect {
+left:680px;
+top:-943px;
+
+}
+
+/*Page de login : message d'erreur */
+html #LoginSkin1 #MessageBoxContent {
+right:155px;
+top:56px;
+}
+
+/*Page de login : largeur des champs de saisie */
+html .FieldItem .riTextBox {
+width:160px !important;
+}
+
+/*Page de login : position des champs d'identification */
+html #LoginBody .LoginFieldPanel {
+left:400px;
+top:148px;
+}
+
+/*Page de login : les liens visités */
+#LoginBody .LoginLinkPanel a:visited {
+color:#000000;
+}
+
+/*Page de login : les liens */
+html #LoginBody .LoginLinkPanel a:hover, html #LoginBody .LoginLinkPanel a {
+color:#07435B;
+display:;
+text-align:left;
+left:0px;
+top:80px;
+position:relative;
+font-size:9pt;
+}
+
+/*Page de login : fond du bouton */
+html div.CustomButtonCommon.Important {
+background-color:#CC4D6B !important;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#55000000) !important;
+background:-moz-linear-gradient( top, rgba(0,0,0,0.0), rgba(0,0,0,0.3));
+background:-webkit-linear-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.0)), to(rgba(0,0,0,0.3)));
+background:-o-linear-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.0)), to(rgba(0,0,0,0.3)));
+background:-ms-linear-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.0)), to(rgba(0,0,0,0.3)));
+background:gradient( linear, left top, left bottom, from(rgba(0,0,0,0.0)), to(rgba(0,0,0,0.3)));
+}
+
+/*Page de login : fond du bouton au survol */
+html div.CustomButtonCommon.Important:hover {
+background-color:#D9798E !important;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#11000000, endColorstr=#55000000) !important;
+background:-moz-linear-gradient( top, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+background:-webkit-linear-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.3)), to(rgba(0,0,0,0.3)));
+background:-o-linear-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.3)), to(rgba(0,0,0,0.3)));
+background:-ms-linear-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.3)), to(rgba(0,0,0,0.3)));
+background:gradient( linear, left top, left bottom, from(rgba(0,0,0,0.3)), to(rgba(0,0,0,0.3)));
+}
+
+/*Page de login : fond du bouton desactive au survol */
+html div.CustomButtonCommon.Important.disabled:hover {
+background-color:#D9798E !important;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#55000000, endColorstr=#22000000) !important;
+background:-moz-linear-gradient( top, rgba(0,0,0,0.4), rgba(0,0,0,0.5));
+background:-webkit-linear-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,0.5)));
+background:-o-linear-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,0.5)));
+background:-ms-linear-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,0.5)));
+background:gradient( linear, left top, left bottom, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,0.5)));
+}
+
+/*Page de login : fond du bouton au clic */
+html div.CustomButtonCommon.Important:active, html div.CustomButtonCommon.disabled:active {
+background-color:#D9798E !important;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#22000000, endColorstr=#55000000) !important;
+background:-moz-linear-gradient( top, rgba(0,0,0,0.6), rgba(0,0,0,0.5));
+background:-webkit-linear-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.5)));
+background:-o-linear-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.5)));
+background:-ms-linear-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.5)));
+background:gradient( linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.5)));
+}
+
+/*Page de login : bord du bouton */
+html div.CustomButtonCommon.Important, html div.CustomButtonCommon.Important:hover, html div.CustomButtonCommon.Important:active, html div.CustomButtonCommon.Important.disabled, html div.CustomButtonCommon.Important.disabled:hover, html div.CustomButtonCommon.Important.disabled:active {
+border:1px solid !important;
+}
+
+/*Page de login : couleur du bouton */
+html div.CustomButtonCommon.Important input, html div.CustomButtonCommon.Important.disabled input {
+color:#FFFFFF !important;
+}
+
+/*Page de login : image du bouton */
+html #LoginBody .LoginConnectPanel div.CustomButtonCommon span {
+
+}
+
+/*Page de login : position du bouton me connecter */
+html #LoginBody .LoginConnectPanel {
+top:207px;
+left:-47px;
+position:absolute;
+}
+
+/*Page de login : Case a cocher memoriser */
+html .FieldSaveIdent {
+margin-left:-6px;
+margin-top:4px;
+float:left;
+}
+
+/*Page de login : message d'erreur */
+html #MessageBoxContent #Messages {
+right:0px;
+top:0px;
+position:relative;
+}
+
+/* fin LOGIN */
+
+/*Pages de l'application : largeur de la zone */
+#GlobalMaster, .GridView tr.Header, #FooterMaster, div.ToolBoxFixed, div.ToolBoxFixedHack {
+width:960px !important;
+min
+}
+
+#GlobalMaster {
+margin:auto;
+background-color: #FFFFFF;
+}
+
+#FooterMaster {
+margin:0;
+}
+
+/*Pages de l'application : largeur de la zone */
+#HeaderMaster {
+  background-image:url(./Images/LogoMaster_2.png) !important;
+  background-position:20px 10px !important;
+  background-repeat:no-repeat no-repeat !important;
+_background-position:20px 5px !important;
+}
+
+#HeaderMaster .PathContent span.Item {
+  display:block;
+  float:left;
+  margin-top:10px;
+}
+
+/*Pages de l'application : ligne sous le menu*/
+#HeaderMaster #GlobalTools {
+border-top:0px
+}
+
+/*
+Pages de l'application : fond 
+body.SimpleMasterPage, body.ColumnsMasterPage, body.DefaultMasterPage {
+background-image:url("./Images/BT_EC_BG.jpg") !important;
+background-color:#0055a3 !important;
+background-repeat:no-repeat;
+background-position:left top;
+-webkit-background-size:auto;
+} */
+
+/*Page de l'application : cadre du titre */
+#HeaderMaster #FooterHeader, #HeaderMaster .PathContent h1#PageTitleContent {
+background-color:#FFFFFF;
+color:#8C8C8C;
+}
+
+/*Page de l'application : cadre principal */
+#GlobalMaster {
+box-shadow: 0 0 0px #111
+}
+
+/*Page de l'application : nom utilisateur */
+#HeaderMaster .UserConnect {
+background-image:none !important;
+background-color:transparent;
+position:absolute;
+top:12px;
+right:150px;
+display:;
+width:300px;
+_left:expression(this.offsetParent.offsetWidth -200 + 150 + 110);
+}
+
+/*lien de l'utilisateur en haut à droite */
+#HeaderMaster .UserConnect a {
+color:rgb(0,0,0) !important;
+}
+
+/*Retire la ligne verticale a gauche du menu option */
+.Master_Btn_Toolbox {
+border:none;
+}
+
+/*largeur de la zone en haut à droite */
+#GlobalTools .GlobalToolsMenu {
+width:120px;
+}
+
+/*Page de l'application : Position du fil d'arianne */
+#HeaderMaster .PathContent {
+top:0px;
+left:15px;
+_margin-top:45px;
+_margin-left:15px;
+margin-right:350px;
+position:relative;
+}
+
+#HeaderMaster .PathContent span.SelectedItem {
+margin-top:24px;
+}
+
+#HeaderMaster .PathContent a, a, .RadSiteMap .rsmTwoLevels a {
+color: #009BBA;
+}
+
+#HeaderMaster .PathContent h1#PageTitleContent {
+  color:#2D2D2D;
+  margin:0 0 10px;
+}
+
+#HeaderMaster .PathContent a:hover, a:hover, .RadSiteMap .rsmTwoLevels a:hover {
+color: #009BBA;
+}
+
+.RadSiteMap_Vista .rsmLevel2 .rsmLink, .RadSiteMap_Vista .rsmLevel2 .rsmTemplate, .RadSiteMap_Vista .rsmThreeLevels .rsmLevel1 .rsmLink, .RadSiteMap_Vista .rsmTwoLevels .rsmLevel1 .rsmLink, .RadSiteMap_Vista .rsmOneLevel .rsmItem .rsmLink {
+color: #292929 !important;
+}
+
+/*Menu option en haut à droite */
+.GlobalToolsMenu .rmItem  a, .GlobalToolsMenu .rmItem  a span, .labelMenuItemText {
+color:#8F8F8F !important;
+}
+
+html .RadMenu .rmRootLink.rmFocused span {
+background-image:none;
+}
+
+/*Menu option survol */
+.GlobalToolsMenu .RadMenu .rmItem:hover a span, .GlobalToolsMenu .RadMenu .rmItem .rmSelected span, .GlobalToolsMenu .RadMenu .rmItem .rmExpanded span, .menu-item {
+background-color:transparent;
+}
+
+#GlobalTools .RadMenu .rmItem a:hover span, #GlobalTools .RadMenu .rmItem .rmSelected span, #GlobalTools .RadMenu .rmItem .rmExpanded span, .labelMenuItemText:hover {
+color:#323232 !important;
+}
+
+/*Fond du menu option */
+.GlobalToolsMenu .RadMenu .rmSlide {
+background-color:#FF00FF;
+}
+
+HTML #GlobalTools .GlobalToolsMenu {
+background-image:none !important;
+display:inline-block;
+}
+
+#GlobalTools .GlobalToolsTable {
+width: 0;
+}
+
+/*position du menu option */
+#GlobalTools .GlobalToolsTable {
+position:relative;
+top:0px;
+right:0px;
+float:right;
+_left:expression(this.offsetParent.offsetWidth - 230 + 7);
+_top:43px;
+_position:absolute;
+}
+
+/*Bouton d'edition des webparts en absolute */
+.Master_EditButton {
+position:absolute;
+top:14px;
+margin-left:-14px;
+}
+
+/*Arrondis des webparts */
+.RadDock .Complete, .RadDock .syfWpContent {
+border-radius: 5px 5px 5px 5px;
+}
+
+html .RadDock .rdCenter .rdTitleBar {
+border-radius: 5px 5px 0 0;
+}
+
+/*Fond des tableaux et pagination */
+.GridView th a, .GridView th, .GridView .Pager td, .GridView .Pager a {
+background-color:#F0EEE1 !important;
+color:#004359 !important;
+background-image:none !important;
+}
+
+/*Fond des tableaux et pagination */
+.GridView th a:hover, .GridView th:hover {
+background-color:#F0EEE1 !important;
+background-image:none !important;
+}
+
+/*Titres des composants */
+.DetailsView .TableGroup .CellGroupHeader, .DetailsView td.FieldHeader {
+color:#282828 !important;
+}
+
+/*Les boutons */
+.GridView .Pager a:hover, .GridView .Pager a:active, div.RadGrid .rgNumPart a:hover, div.RadGrid .rgNumPart a:active, fieldset div.ToolBox div.CustomButtonCommon input {
+color:#333333 !important;
+}
+
+div.DetailsView div.CustomButtonCommon:hover input, fieldset div.ToolBox div.CustomButtonCommon input:hover, .DialogMasterPage .ToolBox div.CustomButtonCommon input:hover {
+color:#1F1F1F !important;
+}
+
+.QuestionPanel div.CustomButtonCommon:hover, .GridView .Pager a:hover, div.RadGrid .rgPager .rgNumPart a:hover, div.ToolBox div.CustomButtonCommon:hover {
+background-color:#002329 !important;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#55000000) !important;
+background:-moz-linear-gradient( top, rgba(0,0,0,0.0), rgba(0,0,0,0.3));
+background:-webkit-linear-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.0)), to(rgba(0,0,0,0.3)));
+background:-o-linear-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.0)), to(rgba(0,0,0,0.3)));
+background:-ms-linear-gradient( linear, left top, left bottom, from(rgba(0,0,0,0.0)), to(rgba(0,0,0,0.3)));
+background:gradient( linear, left top, left bottom, from(rgba(0,0,0,0.0)), to(rgba(0,0,0,0.3)));
+}
+
+/*Les titres des webparts et des cadres*/
+html .RadDock .rdCenter .rdTitleBar, html .RadPanelBar a.rpLink, html .RadPanelBar a.rpLink:hover, .CatalogResults .BlocCatalog .Header, .menuItems:hover, .ListResources .BlocResource {
+background-color: #F1F1F1 !important;
+background:-moz-linear-gradient(top , rgba(255, 255, 255, 0.2) 16%, rgba(255, 255, 255, 0.07) 50%, rgba(0, 0, 0, 0.05) 79%) #F1F1F1 !important;
+background:-webkit-linear-gradient(top , rgba(255, 255, 255, 0.2) 16%, rgba(255, 255, 255, 0.07) 50%, rgba(0, 0, 0, 0.05) 79%) #F1F1F1 !important;
+background:-o-linear-gradient(top , rgba(255, 255, 255, 0.2) 16%, rgba(255, 255, 255, 0.07) 50%, rgba(0, 0, 0, 0.05) 79%) #F1F1F1 !important;
+background:-ms-linear-gradient(top , rgba(255, 255, 255, 0.2) 16%, rgba(255, 255, 255, 0.07) 50%, rgba(0, 0, 0, 0.05) 79%) #F1F1F1 !important;
+background:linear-gradient(top , rgba(255, 255, 255, 0.2) 16%, rgba(255, 255, 255, 0.07) 50%, rgba(0, 0, 0, 0.05) 79%) #F1F1F1 !important;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33ffffff, endColorstr=#11000000) !important;
+}
+
+.RadDock .rdCenter .rdTitleBar em, html .ListResources .BlocResource .BlocLeft span {
+color:#004359 !important;
+text-transform : uppercase;
+font-weight: 700;
+font-size: 1em;
+}
+
+/*Sous-titres des webparts*/
+.TrainingWebpartLabel span strong span {
+color:#282828 !important;
+}
+
+/*Couleur de fond des webparts */
+.RadDock .Complete, .RadDock .syfWpContent, .CatalogResults .BlocCatalog .Description {
+background-color:#F7F7F7;
+color:#2A2A2A !important;
+}
+
+html .RadDock_Office2007 .rdContent, html .RadDock_Office2007 .rdContent .EditorTB, #WebParts_Content, #WebParts_Content span, .WebPartGeneric span {
+color:#2A2A2A !important;
+}
+
+/*Couleur de bordure des webparts */
+.Analysis .BlocLeft, .CatalogResults .BlocLeft, .Analysis .BlocRight, .CatalogResults .BlocRight {
+border-color:#2A2A2A;
+}
+
+/*HTML5 Designs : Onglets */
+
+	/*L'onglet non sélectionné */
+	.TabSelector ul li.TabUnselected {
+	background:#99B4BD;
+	border-radius:2px 2px 0px 0px;
+	margin-right:5px;
+	}
+
+	/*L'onglet sélectionné */
+	.TabSelector ul li.TabSelected {
+	background:#004359;
+	border-radius:2px 2px 0px 0px;
+	margin-right:5px;
+	z-index:5;
+	}
+
+/*La partie gauche de l'onglet sélectionné */
+.TabSelector ul li.TabSelected {
+
+height: 30px;
+line-height: 30px;
+}
+
+/*La partie droite de l'onglet sélectionné */
+.TabSelector ul li a {
+
+background-position: right top;
+background-repeat: no-repeat;
+line-height: 30px;
+}
+
+/*La partie gauche de l'onglet non sélectionné */
+.TabSelector ul li.TabUnselected {
+
+height: 30px;
+line-height: 30px;
+}
+
+/*La partie droite de l'onglet non sélectionné */
+.TabSelector ul li.TabUnselected a {
+
+background-position: right top;
+background-repeat: no-repeat;
+line-height: 30px;
+}
+
+/*HTML5 Designs : Menu */
+
+	/*Les arrondis */
+	#MenuContent {
+	border-radius:5px;
+	height:34px;
+	}
+
+	.RadMenu a.rmLink {
+	border-radius:5px 5px 0px 0px;
+	margin-right:5px;
+	}
+
+	/*Le menu sélectionné */
+	.RadMenu .rmFocused, .RadMenu .rmFocused a {
+	background:-moz-linear-gradient(top, #99B4BD, #99B4BD) !important;
+	background:-o-linear-gradient(top, #99B4BD, #99B4BD) !important;
+	background:-webkit-linear-gradient(top, #99B4BD, #99B4BD) !important;
+	background:-ms-linear-gradient(top, #99B4BD, #99B4BD) !important;
+	background:linear-gradient(top, #99B4BD, #99B4BD) !important;
+	background-color: #99B4BD !important;
+	}
+
+	/*Le menu survolé */
+	.RadMenu .rmSelected, .RadMenu .rmSelected a, .RadMenu .rmItem a:hover,.RadMenu .rmExpanded,.RadMenu .rmExpanded a {
+	background:-moz-linear-gradient(top, #009FC2, #009FC2) !important;
+	background:-o-linear-gradient(top, #009FC2, #009FC2) !important;
+	background:-webkit-linear-gradient(top, #009FC2, #009FC2) !important;
+	background:-ms-linear-gradient(top, #009FC2, #009FC2) !important;
+	background:linear-gradient(top, #009FC2, #009FC2) !important;
+	}
+
+/*hauteur du menu */
+.RadMenu .rmItem a {
+line-height: 30px;
+}
+
+	/*Le menu option survolé */
+#GlobalTools .RadMenu .rmItem a:hover span, #GlobalTools .RadMenu .rmItem .rmSelected span,#GlobalTools .RadMenu .rmItem .rmExpanded span {
+color:#323232;
+background-image:none;
+	}
+
+/*Décalage du texte du menu */
+.RadMenu .rmHorizontal .rmText {
+padding-top: 0px !important;
+padding-right:10px !important;
+padding-left:10px !important;
+}
+
+/*La couleur du texte de l'onglet non sélectionné */
+.TabSelector ul li.TabUnselected a span {
+color:#FFFFFF;
+padding-top:0px;
+}
+
+/*La couleur du texte de l'onglet au survol */
+.TabSelector ul li.TabUnselected a:hover span {
+color:#004359;
+padding-top:0px;
+}
+
+/*La couleur du texte de l'onglet selectionné */
+.TabSelector ul li.TabSelected a span {
+color:#FFFFFF;
+padding-top:0px;
+}
+
+/*La couleur de l'onglet selectionné au survol */
+.TabSelector ul li.TabSelected a:hover span {
+color:#FFFFFF;
+padding-top:0px;
+}
+
+/*Position de la page contenant les onglets */
+#HeaderMaster #FooterHeader {
+  margin:0 0 10px;
+  padding:0 0 0 20px;
+  width:80% !important;
+}
+
+#HeaderMaster {
+_height:120px;
+}
+
+/*Couleur de fond de la page */
+#DivContent, .GridView tr.Row td {
+background-color:#FFFFFF;
+}
+
+/*Position du menu */
+#MenuContent {
+  margin-left:190px;
+  padding-top:15px;
+  width:90%;
+}
+
+/*Le menu normal */
+.RadMenu .rmItem a span, .RadMenu span, .RadMenu a span, .RadMenu span, .RadMenu a span, .RadMenu .rmItem a {
+font-weight:normal;
+text-transform:uppercase;
+color:#009FC2 !important;
+font-size: 11px;
+font-family: 'Opens Sans', sans-serif;
+border-radius: 5px 5px 0px 0px;
+-moz-border-radius: 5px 5px 0px 0px;
+-webkit-border-radius: 5px 5px 0px 0px;
+}
+
+/*Le menu Hover */
+.RadMenu .rmItem a:hover span,.RadMenu .rmExpanded span,.RadMenu .rmExpanded a span {
+font-weight:normal;
+text-transform:uppercase;
+color:#FFFFFF !important;
+}
+
+/*Le menu Sélectionné */
+.RadMenu .rmSelected span, .RadMenu .rmSelected a span, .RadMenu .rmFocused span, .RadMenu .rmFocused a span, .RadMenu .rmSelected .rmText, .SyfadisMenu .rmItem .rmRootLink .rmSelected .rmText, .RadMenu .rmExpanded .rmText, .SyfadisMenu .rmItem .rmRootLink .rmExpanded .rmText {
+font-weight:normal;
+text-transform:uppercase;
+color:#FFFFFF !important;
+background-color:#009BBA;
+}
+
+/*Les textes des items du menu */
+.RadMenu .rmSlide a.rmLink span, .RadMenu .rmSlide .rmItem a {
+color:#FFFFFF !important;
+line-height:34px;
+font-size: 11px;
+}
+
+/*Les items du menu */
+.RadMenu .rmSlide, .RadMenu_Context {
+background:#009BBA !important;
+border: 3px solid #009BBA !important;
+border-radius: 0px 0px 5px 5px;
+-moz-border-radius: 0px 0px 5px 5px;
+-webkit-border-radius: 0px 0px 5px 5px;
+}
+
+/*Les items du menu */
+.RadMenu .rmSlide .rmItem a {
+padding:0 !important;
+margin:0 !important;
+text-transform:normal !important;
+font-weight:normal !important;
+}
+
+/*Les items du menu survol */
+.RadMenu .rmSlide a.rmLink:hover, .RadMenu .rmSlide a.rmFocused,.RadMenu .rmSlide a.rmSelected, .RadMenu .rmSlide a.rmExpanded {
+background-image:none !important;
+filter:none;
+background-color:#F8F8F8 !important;
+border-radius:0px;
+}
+
+/*Les items du menu survol */
+.RadMenu .rmSlide a.rmLink:hover span, .RadMenu .rmSlide a.rmFocused span,.RadMenu .rmSlide a.rmSelected span, .RadMenu .rmSlide a.rmExpanded span {
+text-transform:normal;
+color:#009FC2 !important;
+background:#F8F8F8 !important;
+}
+
+.RadMenu .rmMultiColumn .rmItem:hover .rmLink {
+background:#F8F8F8 !important;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffF8F8F8, endColorstr=#ffF8F8F8) !important;
+}
+
+/*La barre d'outils */
+div.ToolBox, .CatalogResults .BlocCatalog .Infos, .skinMenu {
+background-color:#004359;
+background-image:none;
+}
+
+/*La barre de progression */
+.TutorProgressionBar .InnerPanelInProgress {
+background-color:#004359;
+background-image:none;
+}
+
+div.ToolBox div.CustomButtonCommon input {
+color:#FFFFFF;
+}
+
+div.ToolBox div.CustomButtonCommon:hover input {
+color:#FFFFFF !important;
+}
+
+#DivContent, .GridView tr.Row td {
+_margin-top:30px;
+}
+
+/*Fond des boites d'aide */
+.FieldSeparator .LabelSeparator {
+border-bottom: 1px solid #555555;
+color: #555555;
+text-transform : uppercase;
+font-weight:300;
+font-size:18px;
+}
+
+/*position du bouton déconnexion */
+#GlobalTools .Master_DecoBtn, #GlobalTools .Master_DecoBtn:hover {
+margin-top:0px;
+margin-right:0px;
+}
+
+/*Couleur des selection dans les tableaux */
+.GridView .RowSel td, .GridView .RowOver td {
+background-color: #E5F5F8;
+}
+
+/*Texte des headers */
+.DetailsView td.FieldHeader {
+font-weight:normal;
+}
+
+/*le player : Barre */
+#ActionBarPane {
+background-color: #F6F6F6 !important;
+background:-moz-linear-gradient(top , rgba(255, 255, 255, 0.2) 16%, rgba(255, 255, 255, 0.07) 50%, rgba(0, 0, 0, 0.05) 79%);
+background:-webkit-linear-gradient(top , rgba(255, 255, 255, 0.2) 16%, rgba(255, 255, 255, 0.07) 50%, rgba(0, 0, 0, 0.05) 79%);
+background:-o-linear-gradient(top , rgba(255, 255, 255, 0.2) 16%, rgba(255, 255, 255, 0.07) 50%, rgba(0, 0, 0, 0.05) 79%);
+background:-ms-linear-gradient(top , rgba(255, 255, 255, 0.2) 16%, rgba(255, 255, 255, 0.07) 50%, rgba(0, 0, 0, 0.05) 79%);
+background:linear-gradient(top , rgba(255, 255, 255, 0.2) 16%, rgba(255, 255, 255, 0.07) 50%, rgba(0, 0, 0, 0.05) 79%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33ffffff, endColorstr=#33000000) !important;
+}
+
+#playerStatusBar span {
+color: #444444 !important;
+}
+
+.player .RadSplitter .rspPane, .player .RadSplitter .rspPaneHorizontal, body.CoursePlayerMasterPage {
+background: #ECECEC;
+}
+
+.TrainingPlan .RadTreeView .rtIn span {
+color: #004359 !important;
+}
+
+.TrainingPlan .RadTreeView .rtIn.disabledResource  span {
+color: #403F3F !important;
+}
+
+.player .TrainingPlan .RadTreeView .rtHover,  .player .TrainingPlan .RadTreeView .rtSelected, .TrainingPlan .RadTreeView .rtHover, .TrainingPlan .RadTreeView .rtSelected, .player .TrainingPlan .RadTreeView .rtHover, .player .TrainingPlan .RadTreeView .rtSelected,.PlanPanel .TrainingPlan .RadTreeView .rtHover, .PlanPanel .TrainingPlan .RadTreeView .rtSelected {
+color: #F0EEE1 !important;
+background-image:none !important;
+background-color:#F0EEE1 !important;
+}
+
+.TrainingPlan .RadTreeView {
+color: #004359 !important;
+}
+
+.RadTreeView .rtDisabled .rtIn span {
+color: #ccc !important;
+}
+
+.player .TrainingPlan .RadTreeView .rtSelected, .TrainingPlan .RadTreeView .rtSelected, .PlanPanel .TrainingPlan .RadTreeView .rtSelected, .RadTreeView_Vista .rtHover .rtIn .resourceText, .TrainingPlan .RadTreeView .rtSelected .resourceText {
+color: #009BBA !important;
+}
+
+.PlanPane {
+background-color: #F0EEE1 !important;
+background-image:none !important;
+border-right:0px;;
+}
+
+/*Barre de progression */
+.TutorProgressionBar .InnerPanelInProgress, .TutorProgressionBar .OuterPanel {
+
+height:12px;
+}
+
+.TutorProgressionBar .OuterPanel {
+
+background-color:#F6F6F6;
+}
+
+/*Contenus : Titles */
+#playerQuiz #playerQuizHeader {
+border: 0px solid #000000;
+}
+
+/*Contenus : Titles */
+#playerQuiz #playerQuizHeader h1, .PlayerForumTitle, .PlayerNodeTitle, .PlayerRegistrationTitle, .PlayerPresentialTitle, .PlayerPracticalCaseTitle {
+color:#004359;
+font-size:1.4em;
+text-decoration:none;
+}
+
+/*Contenus : Timer */
+.QuizStatusBar .ProgressionLabel, .QuizStatusBar .ProgressionBar div, .QuestionPanel .QuizQuestion .CommentPanel .Comment {
+color:#004359;
+}
+
+/*Contenus : Quiz, le titre */
+.QuestionPanel .QuizQuestion span.Title {
+color:#333333;
+background-color: #EBF2F9 !important;
+background:-moz-linear-gradient(top , rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.05));
+background:-webkit-linear-gradient(top , rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.05));
+background:-o-linear-gradient(top , rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.05));
+background:-ms-linear-gradient(top , rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.05));
+background:linear-gradient(top , rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.05));
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#22ffffff, endColorstr=#21000000) !important;
+font-size:1em;
+}
+
+/*Contenus : Quiz, la question */
+.QuestionPanel .QuizQuestion .Question span {
+color:#545454;
+}
+
+/*Contenus : Quiz, les reponses */
+.QuestionPanel .QuizQuestion .Response label {
+color:#606060;
+font-size:1em;
+}
+
+/*Contenus : Quiz, les boutons */
+.QuestionPanel div.CustomButtonCommon {
+background-color:#EBF2F9 !important;
+}
+
+/*Contenus : Couleurs du texte */
+.Dialog #DivContent {
+color:#292929;
+}
+
+/*Conception : onglet sélectionné */
+.RadTabStrip li a:hover, .RadTabStrip li a.rtsSelected {
+border-radius: 0 0 5px 5px;
+box-shadow: 0 4px 3px #bbb;
+}
+
+/*Les champs */
+.TextField, .DetailsView table.EditorHtml textarea {
+font-size:1em;
+}
+
+/* WebControl : listbox hover */
+div.RadComboBoxDropDown_Simple .rcbHovered {
+background-color: #EAEAEA !important;
+color: #333333 !important;
+border-color: #D3D3D3 !important;
+}
+
+/* WebControl : listbox line normal */
+.rcbHovered, .RadComboBoxDropDown .rcbList .rcbItem, .RadComboBox_Simple .rcbFocused .rcbReadOnly .rcbInputCell {
+background-color: #FFFFFF !important;
+color: #333333 !important;
+}
+
+/* WebControl : champs */
+html body .riSingle .riTextBox, html body .riSingle .riTextBox, .RadComboBox table td.rcbInputCell, .RadComboBox .rcbInputCell .rcbInput, .RadComboBox .rcbReadOnly td.rcbArrowCell,
+html body .RadInput_Simple .riTextBox, html body .RadInputMgr_Simple {
+border-color: #D3D3D3 !important;
+background-color: #FFFFFF !important;
+color: #333333 !important;
+font-size: 0.97em !important;
+}
+
+/* WebControl : champs */
+html body .riSingle .riTextBox, html body .riSingle .riTextBox, .RadComboBox table td.rcbInputCell, .RadComboBox .rcbInputCell .rcbInput, .RadComboBox .rcbReadOnly td.rcbArrowCell,
+html body .RadInput_Simple .riTextBox, html body .RadInputMgr_Simple,
+div.RadComboBox_Simple .rcbHovered .rcbArrowCell, div.RadComboBox_Simple .rcbHovered .rcbInputCell {
+border-color: #D3D3D3 !important;
+color: #333333 !important;
+font-size: 0.97em !important;
+}
+
+/* WebControl : champs texte */
+html body .riSingle .riTextBox, html body .riSingle .riTextBox[type="text"] {
+font-size: 0.9em !important;
+}
+
+/* RadWindows fond de la page */
+div.RadWindow_WebBlue td.rwWindowContent, .RadWindow .rwWindowContent {
+background-color: #FFFFFF;
+}
+
+/* Webkit décoration */
+#LoginBody input {
+outline-style: none;
+}
+
+.Master_EditButton, .Master_EditButton:hover {
+background-image: url("./Webpart/editButton.gif");
+}
+
+/* Optimisations multi-navigateurs */
+/*login */
+html #LoginBody .FieldItemLabel {
+display:none !important;
+}
+
+html #LoginContentPanel .riTextBox {
+padding:6px;
+border-color:transparent !important;
+}
+
+html #LoginContentPanel .riSingle .riTextBox {
+border-color:transparent !important;
+}
+
+#LoginBody .FieldItemLabel {
+margin-top:6px;
+}
+
+#LoginBody .FieldItem {
+padding-top:41px !important;
+}
+
+
+html div.CustomButtonCommon.Important, html div.CustomButtonCommon.Important:hover {
+background-image:none;
+filter:none !important;
+border:0px !important;
+color:#009bba !important;
+}
+
+html div.CustomButtonCommon.Important span {
+background:none !important;
+filter:none !important;
+}
+
+html div.CustomButtonCommon.Important input {
+font-weight: bold;
+padding: 0 20px;
+text-transform: uppercase;
+}
+
+/*lien mot de passe */
+html #LoginBody .LoginLinkPanel a::before {
+content:'';
+width:0px; height:0;
+display:inline-block;
+border:4px solid transparent;
+border-left:7px solid #009bba;
+}
+
+html #LoginBody .LoginLinkPanel a {
+text-decoration:underline;
+}
+
+/*Custom CSS */
+html .CatalogResults .BlocCatalog {
+  float:left;
+  margin:12px;
+  width:44%;
+  border: 1px solid #0c5577;
+}
+
+html .CatalogResults .BlocCatalog .Header {
+  background-color:#0E6086 !important;;
+  background-image: none !important;
+  color:#FFFFFF;
+  overflow:hidden;
+  padding:5px;
+  height:auto;
+}
+
+html .CatalogResults .BlocCatalog .Header a {
+  color:#FFF;
+  display:block;
+  font-size:1.5em;
+  font-weight:300;
+  margin-left:10px;
+  margin-top: 5px;
+}
+
+html .CatalogResults .BlocCatalog .Infos {
+  background-color:#fafdfe;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  font-size:0.9em;
+  padding:5px 5px 5px 22px;
+}
+
+html .WebPartsButton {
+  float:left;
+  margin: 0 0 10px 0 !important;
+  overflow:hidden;
+}
+
+html .RadTreeView_Vista  .rtIn {
+  background-image: none !important;
+  cursor: pointer;
+}
+
+html .RadTreeView_Vista .rtSelected .rtIn {
+  background-color:#AEDDF5;
+  background-image: none !important;
+  border-radius: 3px;
+  padding:5px;
+}
+
+html .rtLI {
+  height:auto;
+  margin: 3px 0;
+}
+
+/*Pictos Webparts */
+html .RadDock .syfWpContent .rdCollapse, .RadDock .syfWpContent .rdExpand, .RadDock .syfWpContent .rdCustom, .RadDock .syfWpContent .rdClose, .RadDock .rdCenter .rdCommands a span {
+  background-image:url("./Images/webpartSettings.png") !important;
+  cursor:pointer !important;
+  opacity:0.6;
+}
+
+.TabSelector ul li a span {
+  display:block;
+  padding:0 8px;
+  text-align:center;
+}
+
+
+html .Small .CatalogResults .BlocCatalog .Header a {
+  color:#FFFFFF;
+  display:block;
+  font-family:Arial, sa;
+  font-size:1em;
+  font-weight:300;
+  margin-bottom:5px;
+  margin-left:5px;
+  text-transform:uppercase;
+}
+  
+/*Sidebar Administrateur */
+  
+html .RadPanelBar a.rpLink {
+  background-color:#FFF !important;
+  background-image:none !important;
+  color:#004359 !important;
+}
+
+html .RadPanelBar .rpExpandable span.rpExpandHandle {
+  background-image:url(./Images/webpartSettings.png) !important;
+  background-position:0 0 !important;
+  height:16px;
+  width:16px;
+}
+
+html .RadDock .rdCenter em {
+  font-size:1.5em !important;
+}
+
+html fieldset {
+  margin:10px 0;
+  padding:0;
+}
+
+html legend  {
+  font-weight:normal;
+  text-transform:uppercase;
+}
+.GridView th {
+	font-weight:normal;
+	font-size:1.2em;
+}	

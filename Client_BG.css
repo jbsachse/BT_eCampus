@@ -1,0 +1,8 @@
+/*Pages de l'application : fond */
+body.SimpleMasterPage, body.ColumnsMasterPage, body.DefaultMasterPage {
+background-image:url("./Images/BT_EC_BG.jpg") !important;
+background-color:#0055a3 !important;
+background-repeat:no-repeat;
+background-position:left top;
+-webkit-background-size:auto;
+}
